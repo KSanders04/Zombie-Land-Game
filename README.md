@@ -18,7 +18,7 @@ Shoot as many zombies as you can
 Technologies and Techniques Used:
 
 I used the code that you provided for us to use. I also used
-stack overflow to figure out some more complicated things
+stack overflow to figure out some more complicated things.
 
 Citations:
 https://opengameart.org/content/animated-top-down-survivor-player
@@ -31,6 +31,10 @@ https://opengameart.org/content/grunts-male-death-and-pain
 https://opengameart.org/content/night-of-the-streets-horrorsuspense
 https://opengameart.org/content/2d-pixel-art-guns
 https://opengameart.org/content/demon-voice-game-over
+
+Description Process:
+
+In this project, i learned a lot about python in general and expanding my knowledge in python. I also learned a lot about pygame as well as using game engines to make games easier to code. Another thing i learned was how i can problem solve better and only focusing on one task at one time
 
 
 
