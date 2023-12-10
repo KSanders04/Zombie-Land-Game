@@ -34,7 +34,8 @@ https://opengameart.org/content/demon-voice-game-over
 
 Description Process:
 
-In this project, i learned a lot about python in general and expanding my knowledge in python. I also learned a lot about pygame as well as using game engines to make games easier to code. Another thing i learned was how i can problem solve better and only focusing on one task at one time
+In this project, i learned a deeper knowledge in python through trial and error. i also learned how game engine make games easier to create. A place that i got stuck at was trying to figure out how i can make more zombies come out when 10 zombies are killed. It took about a week to figure that out but once i figured it out, it all made a lot of sense. In this game, i would love to improve it by adding a health box to the game so that you can regenerate your health back to 100 when collided with. Something that i would do differently next time is spending more time on getting power ups working instead of trying to look for the perfect sprite or perfect sound for the game. I stayed on track with my game design document up until the wave of zombies. i spent way too long on trying to figure that out that i decided to ditch that idea and go with more zombies as you kill zombies. I stay on track with my project by working on it everyday and making some progress to it everyday. I also stayed on track by making sure i'm focusing on one problem at a time instead of thinking of every problem I have with the game. 
+
 
 
 
