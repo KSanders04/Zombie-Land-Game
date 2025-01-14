@@ -9,10 +9,10 @@
 ## Instructions:
 
 - Use keys WASD to move around
-- Use to mouse to aim and shoot at zombies
-- Use key R to reload weapon
+- Use a mouse to aim and shoot at zombies
+- Use the R key to reload weapon
 - You have 100 health
-- Shoot as many zombies as you can!
+- Shoot as many zombies as you can
 
 ## Technology and Languages Used:
 
@@ -35,7 +35,7 @@ https://opengameart.org/content/demon-voice-game-over
 
 ## Description Process:
 
-In this project, I learned a deeper knowledge in python through trial and error. I also learned how game engine make games easier to create. A place that I got stuck at was trying to figure out how I can make more zombies come out when 10 zombies are killed. It took about a week to figure that out but once i figured it out, it all made a lot of sense. In this game, I would love to improve it by adding a health box to the game so that you can regenerate your health back to 100 when collided with. Something that I would do differently next time is spending more time on getting power ups working instead of trying to look for the perfect sprite or perfect sound for the game. I stayed on track with my game design document up until the wave of zombies. I spent way too long on trying to figure that out that i decided to ditch that idea and go with more zombies as you kill zombies. I stay on track with my project by working on it everyday and making some progress to it everyday. I also stayed on track by making sure i'm focusing on one problem at a time instead of thinking of every problem I have with the game. 
+In this project, I learned a deeper knowledge in python through trial and error. I also learned how game engine make games easier to create. A place that I got stuck at was trying to figure out how I can make more zombies come out when 10 zombies are killed. It took about a week to figure that out but once I figured it out, it all made a lot of sense. In this game, I would love to improve it by adding a health box to the game so that you can regenerate your health back to 100 when collided with. Something that I would do differently next time is spending more time on getting power ups working instead of trying to look for the perfect sprite or perfect sound for the game. I stayed on track with my game design document up until the wave of zombies. I spent way too long on trying to figure that out that I decided to ditch that idea and go with more zombies as you kill zombies. I stay on track with my project by working on it everyday and making some progress to it everyday. I also stayed on track by making sure i'm focusing on one problem at a time instead of thinking of every problem I have with the game. 
 
 
 
