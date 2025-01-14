@@ -8,7 +8,7 @@
 
 ## Instructions:
 
-- Use keys WASD S to move around
+- Use keys WASD to move around
 - Use to mouse to aim and shoot at zombies
 - Use key R to reload weapon
 - You have 100 health
