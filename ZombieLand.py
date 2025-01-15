@@ -126,7 +126,7 @@ class Bullet(simpleGE.SuperSprite):
         self.show()
         self.setPosition(self.scene.gunner.rect.center)
         self.setMoveAngle(self.scene.gunner.rotation)
-        self.setSpeed(20)
+        self.setSpeed(25)
         
     def reset(self):
         self.hide()
@@ -215,10 +215,11 @@ class Game(simpleGE.Scene):
                             
     def update(self):
         self.gunner.CheckEvents()
+
         
         if not self.gameOver:   
             self.lblKills.text = f"Kills: {self.zombiesKilled}"
-            self.lblBullets.text = f"Bullets Left: 16/{self.currentBullet}"
+            self.lblBullets.text = f"Bullets Left: {self.currentBullet}/16"
             self.lblHealth.text = f"Health: {self.gunner.getHealth()}"        
         
         zombieHitGunner = self.gunner.collidesGroup(self.zombies)
@@ -226,6 +227,7 @@ class Game(simpleGE.Scene):
             self.gunner.takeDamage(20)
             hit = simpleGE.Sound("GettingHitSound.wav")
             hit.play()
+            
             if self.gunner.getHealth() == 0:
                 dyingSound = simpleGE.Sound("DyingSound.wav")
                 dyingSound.play()
@@ -265,7 +267,7 @@ class StartMenu(simpleGE.Scene):
         self.background = pygame.transform.scale(self.background, (640,480))
         
         pygame.mixer.music.load("ZombieBackgroundMusic.mp3")
-        pygame.mixer.music.set_volume(3)
+        pygame.mixer.music.set_volume(0.3)
         pygame.mixer.music.play(3)
         
         self.addLabels()
@@ -315,11 +317,10 @@ class StartMenu(simpleGE.Scene):
         self.multi = simpleGE.MultiLabel()
         self.multi.textLines = [
             "How to Play:",
-            "Use the W and S keys,",
-            "to go forward and backwards.",
-            "Use the A and D keys to move to side.",
+            "Use WASD to move,",
             "Use the mouse to aim and shoot at Zombies.",
-            "Press R to reload bullets "
+            "Press R to reload bullets",
+            "Good Luck!"
             ]
         self.multi.font = pygame.font.Font("ZombieFont.otf", 13)
         self.multi.size = (390, 195)
@@ -346,7 +347,7 @@ class GameOverScene(simpleGE.Scene):
         pygame.mixer.music.play(1)
         
         self.gameOverLabel()
-        self.finalWaveLabel()
+        self.finalKillsLabel()
         self.playAgain()
         self.restartAction()
         self.quitAction()
@@ -364,7 +365,7 @@ class GameOverScene(simpleGE.Scene):
         self.lblGameOver.center = (310, 250)
         self.lblGameOver.size = (450, 200)
         
-    def finalWaveLabel(self):    
+    def finalKillsLabel(self):    
         self.lblFinalKills = simpleGE.Label()
         self.lblFinalKills.text = f"You Killed {self.zombiesKilled} Zombies"
         self.lblFinalKills.center = (310,285)
