@@ -1,5 +1,12 @@
 # Zombie Land
 
+## Description:
+Zombie Land is a fast-paced top-down shooter where this game depends on precision, positioning, and quick reflexes. You are dropped into a zombie-infested map with the objective to eliminate as many zombies as possible.
+
+Move around using WASD, aim with your mouse, and right click on mouse to fire. Manage your ammo carefully and press R to reload. Zombies deal damage on contact, and with only 100 health, poor movement or slow reactions can end a run quickly.
+
+The game emphasizes constant movement, accurate aiming, and smart decision-making as the zombie count ramps up, pushing players to survive longer and improve their score each run.
+
 ## Instructions:
 
 - Use keys WASD to move around
